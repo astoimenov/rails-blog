@@ -11,7 +11,6 @@
  *= require_self
  *= require_tree .
  */
-
 @import 'normalize';
 
 html, body {
@@ -199,6 +198,7 @@ a {
     }
   }
 }
+
 #page-wrapper {
   padding: 3em;
   #profile-image {
@@ -225,9 +225,11 @@ a {
     }
   }
 }
+
 .links {
   margin: 2em 0;
 }
+
 input[type="text"], input[type="email"], input[type="password"], textarea {
   width: 90%;
   border: 1px solid #d6dce0;
@@ -236,12 +238,15 @@ input[type="text"], input[type="email"], input[type="password"], textarea {
   padding: .5em 1em;
   line-height: 1.75;
 }
+
 input[type="text"] {
   height: 35px;
 }
+
 textarea {
   min-height: 180px;
 }
+
 input[type="submit"] {
   outline: none;
   background: transparent;
